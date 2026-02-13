@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mischief Managed?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="map-container">
+        <div id="content">
+            <h1 id="headline">I solemnly swear that I am up to no good.</h1>
+            <button id="activate-btn" onclick="revealMagic()">Tap with Wand</button>
+            
+            <div id="secret-message" class="hidden">
+                <h2>Will you be my Valentine?</h2>
+                <div class="actions">
+                    <button id="yes-btn" onclick="accepted()">Yes</button>
+                    <button id="no-btn" onmouseover="moveButton()">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
