@@ -1,3 +1,5 @@
+const noBtn = document.getElementById('no-btn');
+
 function revealMagic() {
     document.getElementById('headline').innerText = "Mischief Managed...";
     document.getElementById('activate-btn').classList.add('hidden');
